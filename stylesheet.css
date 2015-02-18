@@ -14,6 +14,7 @@ html, body {
 	height: 500px;
 	background: url('/images/bwmountain.jpg') no-repeat;
 	background-size: cover;
+	background-position: bottom;
 }
 
 .info {

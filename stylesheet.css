@@ -63,8 +63,8 @@ html, body {
   font-size: 20px; /*set the size for arrow*/
   width: 4em;
 	height: 4em;
-	border-top: 5px solid #fff;
-	border-left: 5px solid #fff;
+	border-top: 3px solid #fff;
+	border-left: 3px solid #fff;
 	transform: rotate(-135deg);
 }
 
@@ -72,6 +72,27 @@ html, body {
 	width: 100%;
 	height: 1000px;
 	background: #000;
+	box-sizing: border-box;
+	color: #fff;
+	padding: 10px;
+}
+
+.bio-container p {
+	font-size: 2em;
+}
+
+.bio-container li {
+	font-size: 1.5em;
+}
+
+.bio {
+	width: 100%;
+	height: 425px;
+}
+
+.skills {
+	width: 100%;
+	height: 425px;
 }
 
 .contact {
